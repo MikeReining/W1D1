@@ -6,3 +6,9 @@ git checkout -b branch1 // create a new branch in git
 vim hello.txt // open visual editor in command line to update file
 git checkout mater // go to master branch
 git merge branch1 // merge branch1 into current branch
+git help config // view help for command "config"
+
+Git Level 1 code school done
+
+https://www.dropbox.com/s/vvbcv6cuund19kx/Screenshot%202015-01-12%2015.03.54.png?dl=0
+
