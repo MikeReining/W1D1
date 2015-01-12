@@ -13,5 +13,13 @@ a{1,3} will match a min. 1 time and max. 3 times
 a+ one or more a's
 [abc]+ one or more of any a,b, or c
 .* zero or more of any character
+? denotes optionality
+ab?c will match either the strings "abc" or "ac" because the b is considered optional
+\? have to escape the question mark to match a plain question mark character
+^successful$ match exactly the keyword "successful"
+
+Screenshot that shows that I have advanced to Lesson 11.  Problem set completed
+
+https://www.dropbox.com/s/kj9hg19v3043f97/Screenshot%202015-01-12%2014.40.57.png?dl=0
 
 

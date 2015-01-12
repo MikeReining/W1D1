@@ -3,3 +3,6 @@ git status // tells me where I am
 git add . // add all files
 git commit -m "message" // submit commit
 git checkout -b branch1 // create a new branch in git
+vim hello.txt // open visual editor in command line to update file
+git checkout mater // go to master branch
+git merge branch1 // merge branch1 into current branch
