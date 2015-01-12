@@ -1,0 +1,5 @@
+git init // create git repo via command line
+git status // tells me where I am
+git add . // add all files
+git commit -m "message" // submit commit
+git checkout -b branch1 // create a new branch in git
