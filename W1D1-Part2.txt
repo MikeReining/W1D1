@@ -1,0 +1,28 @@
+// Display contents of dictionary / prints all words on screen in terminal
+
+cat /usr/share/dict/words
+
+// Display contents of dictionary / print all words / strings that end in "ous"
+// Grep searches text file for specific string
+
+cat /usr/share/dict/words | grep "ous$"
+
+
+// Line count - shows that there are 235886 words in dictionary
+wc -l /usr/share/dict/words
+
+// Shows that there are 6421 words ending in "ous"
+
+cat /usr/share/dict/words | grep "ous$" | wc -l
+
+// Display all in directory /share and copy it into a file called ls.txt
+
+ls -al /usr/share > ~/ls.txt
+
+// view the content of the file ls.txt in terminal pager program
+
+less ~/ls.txt
+
+// use nano terminal text editor to view and update file
+
+nano ~/ls.txt

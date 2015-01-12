@@ -1,0 +1,64 @@
+Unix Command Problems
+
+
+PROBLEM 1
+// Write a command that will output the number of times the cat command was used previously
+
+// display all lines that used the cat command
+history | grep "cat"
+
+// put output in a file
+history | grep "cat" > cat-lines.txt
+
+// count lines in file via numbered list
+cat -n cat-lines.txt
+
+// Give count and display only count result in terminal
+wc -l < cat-lines.txt
+
+// Combine in one statement
+history | grep "cat" | wc -l
+
+// Shorter answer just do this
+history | grep -c "cat"
+
+
+// In one statement
+
+ANSWER = 14
+
+PROBLEM 2
+
+Write a command to output a count of all words in the unix dictionary file that begin with the letter "a"
+
+// Grab all words that begin with a from dictionary and put them in a new file
+cat /usr/share/dict/words | grep "^a" > begins-with-a.txt
+
+// Now display count of lines in the new file
+wc -l < begins-with-a.txt
+
+// in one line
+
+cat /usr/share/dict/words | grep "^a" | wc -l 
+
+ANSWER = 14537
+
+PROBLEM 3
+// What UNIX command did you run to get the answer to the previous question?
+
+ANSWER
+// grep to search for items
+// wc -l to count lines
+
+PROBLEM 4
+// Return all the words in the dictionary that start with "a" and end with "s"
+cat /usr/share/dict/words | grep -c "^a*$s" 
+
+PROBLEM 5
+
+Using one unix command, download & save the following page:
+www.lighthouselabs.ca/index.html
+
+// Go to desktop to download file
+cd ~/Desktop; curl -o lighthouselabs.html http://www.lighthouselabs.ca/index.html
+
