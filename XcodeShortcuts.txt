@@ -1,0 +1,35 @@
+XCODE SHORTCUTS
+
+Command	Control	Option	Shift	Click
+⌘	⌃	⌥	⇧	ʘ
+
+Open Quickly (⇧⌘O)
+
+Quick Help
+
+Quick Documentation (⌥ʘ on Symbol / Three-Finger Tap)
+Open Documentation (⌥ʘʘ on Symbol)
+Jump to Definition (⌘ʘ on Symbol)
+
+Jump between .h/.m files (^⌘↑ / ^⌘↓ / Three-Finger Vertical Swipe)
+
+Comment Selection / Current Line (⌘/)
+
+Show Standard Editor (⌘↵)
+Show Assistant Editor (⌥⌘↵)
+Show Version Editor (⌥⇧⌘↵)
+
+Show/Hide Navigator Panel (⌘0)
+Select Navigator (⌘1, ..., ⌘8)
+Show/Hide Utilities Panel (⌥⌘0)
+Select Utilities Panel (⌥⌘1, ⌥⌘2, ...)
+Show / Hide Debug Area (⇧⌘Y)
+Activate Console (⇧⌘C)
+
+Find (⌘F) /
+Find & Replace (⌥⌘F) /
+Find in Project (⇧⌘F) /
+Find & Replace in Project (⌥⇧⌘F)
+
+Spelling & Grammar (⌘:)
+
