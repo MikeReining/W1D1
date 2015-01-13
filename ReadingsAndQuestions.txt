@@ -1,0 +1,68 @@
+Readings & Questions
+
+Question 1 What does CSL stand for?
+command line interface
+
+
+Question 2 What do the following cd commands mean?
+
+// return to parent directory
+cd ~
+
+// same as above
+cd ~/
+
+// current directory
+cd .
+
+
+// change to the parent directory
+cd ..
+
+// go to root directory
+cd /
+
+// switch back to previous directory
+cd -
+
+Question 3
+
+In the following command, the first word is called the "command", what is the remaining part (-p) referred to as?
+
+mkdir -p ~/Documents/example_dir
+
+
+-p: will also create all directories leading up to the given directory that do not exist already. If the given directory already exists, ignore the error.
+
+Question 4 What does the | symbol, used in some of the Part 2 commands, do in Unix?
+
+- Pass the output of one command to another for further processing.
+
+A much more comprehensive list of pipe commands can be found here:
+
+http://www.westwind.com/reference/OS-X/commandline/pipes.html
+
+Question 5:
+
+// Display all words ending with "ous" in the words dictionary
+
+cat /usr/share/dict/words | grep "ous$"
+
+// Count all words ending in "ous" in the words dictionary
+
+cat /usr/share/dict/words | grep "ous$" | wc -l
+
+Question 6:
+
+What is the $ is used to specify the end of line so it says find all occurrences of "ous" at the end of each string.
+
+If the dollar sign is left out, it return all matches of "ous" even if they happen anywhere in the string and not just at the end of the word.
+
+The expression is called a regular expression
+
+Question 7:
+
+What does the > symbol do in the Unix CLI?
+
+Redirect output from a command to a file on disk. Note: if the file already exist, it will be erased and overwritten without warning, so be careful.
+
